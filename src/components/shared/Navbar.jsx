@@ -67,7 +67,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Animated Mobile Dropdown Menu */}
+      {/*  Mobile Dropdown Menu */}
       <div
         className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${
           isOpen
