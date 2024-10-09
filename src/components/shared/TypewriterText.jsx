@@ -3,13 +3,13 @@ import Typewriter from "typewriter-effect";
 const TypewriterText = () => {
   return (
     <div
-      style={{
-        fontSize: "2rem",
-        fontWeight: "bold",
-        color: "#FFD700",
-        fontFamily: "Audiowide",
-        textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)",
-      }}
+      className="
+        text-2xl    
+        md:text-3xl 
+        sm:text-xl  
+        font-bold text-yellow-500 font-audiowide
+        shadow-lg text-shadow-md
+      "
     >
       <Typewriter
         options={{

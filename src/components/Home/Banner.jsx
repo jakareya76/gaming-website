@@ -15,16 +15,17 @@ const Banner = () => {
       <div className="grid grid-cols-3 gap-5 grid-rows-3 md:grid-cols-8 md:grid-rows-4">
         <div
           style={{ backgroundImage: `url(${bannerImg})` }}
-          className="col-span-2 row-span-3 md:col-span-6 md:row-span-3 rounded-xl"
+          className="relative col-span-2 banner row-span-3 md:col-span-6 md:row-span-3 rounded-xl"
         >
-          <div className="flex items-start m-10 justify-between">
+          <div className="absolute w-full h-full bg-black opacity-50 z-10"></div>
+          <div className="flex items-start m-10 justify-between flex-col xl:flex-row z-50 relative">
             <div>
-              <h2 className="text-5xl font-bold font-Audiowide bg-gradient-to-r from-green-400 via-green-100 to-white bg-clip-text text-transparent">
+              <h2 className="lg:text-5xl font-bold font-Audiowide bg-gradient-to-r from-green-400 via-green-100 to-white bg-clip-text text-transparent">
                 We provide Services
               </h2>
               <TypewriterText />
             </div>
-            <a className="relative inline-block uppercase cursor-pointer px-8 py-4 text-2xl font-light text-yellow-500 border-2 border-current rounded-full overflow-hidden transition-transform duration-200 ease-in-out will-change-transform z-0 cool-beans">
+            <a className="relative inline-block uppercase cursor-pointer mt-5 md:mt-0 px-2 py-1 md:px-8 md:py-4 md:text-2xl font-light text-yellow-500 border-2 border-current rounded-full overflow-hidden transition-transform duration-200 ease-in-out will-change-transform z-0 cool-beans">
               get started
               <span className="absolute inset-0 transform translate-x-[-100%] rotate-12 bg-yellow-500 rounded-full transition-transform duration-200 ease-out will-change-transform z-[-1]"></span>
             </a>

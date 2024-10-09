@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         Audiowide: "Audiowide",
+        Roboto: "Roboto",
       },
     },
   },
