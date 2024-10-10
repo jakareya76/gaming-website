@@ -10,7 +10,7 @@ const About = () => {
     <motion.section
       ref={ref}
       initial={{ opacity: 0, y: 20 }}
-      animate={isInView ? { opacity: 1, y: 0 } : {}}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
       transition={{
         duration: 1.6,
         ease: "easeOut",
@@ -21,7 +21,7 @@ const About = () => {
         <div className="w-full lg:w-1/2">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{
               duration: 1,
               ease: "easeOut",
@@ -34,7 +34,7 @@ const About = () => {
 
           <motion.h4
             initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{
               duration: 1,
               ease: "easeOut",
@@ -47,7 +47,7 @@ const About = () => {
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{
               duration: 1,
               ease: "easeOut",
@@ -75,11 +75,13 @@ const About = () => {
             alt="about_img"
             className="w-full object-cover"
             initial={{ opacity: 0, scale: 0.9 }}
-            animate={isInView ? { opacity: 1, scale: 1 } : {}}
+            animate={
+              isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }
+            }
             transition={{
               duration: 1,
               ease: "easeOut",
-              delay: 0.8, // Delay for the image
+              delay: 0.8,
             }}
           />
         </div>
