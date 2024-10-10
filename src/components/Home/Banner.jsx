@@ -9,9 +9,25 @@ import img8 from "../../assets/8.webp";
 import bannerImg from "../../assets/hero-banner.webp";
 import TypewriterText from "../shared/TypewriterText";
 
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
+
 const Banner = () => {
+  const ref = useRef(null);
+
+  const isInView = useInView(ref, { once: true });
+
   return (
-    <section className="container mx-auto py-10 text-white">
+    <motion.section
+      ref={ref}
+      initial={{ opacity: 0, y: 50 }}
+      animate={isInView ? { opacity: 1, y: 0 } : {}}
+      transition={{
+        duration: 1,
+        ease: [0.25, 0.46, 0.45, 0.94],
+      }}
+      className="container mx-auto py-10 text-white"
+    >
       <div className="grid grid-cols-3 gap-5 grid-rows-3 md:grid-cols-8 md:grid-rows-4">
         <div
           style={{ backgroundImage: `url(${bannerImg})` }}
@@ -88,7 +104,7 @@ const Banner = () => {
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
