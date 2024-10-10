@@ -1,7 +1,7 @@
-import logo from "../../assets/logo.png";
-import footer1 from "../../assets/footer1.png";
-import footer2 from "../../assets/footer2.png";
-import footer3 from "../../assets/footer3.png";
+import logo from "../../assets/logo.webp";
+import footer1 from "../../assets/footer1.webp";
+import footer2 from "../../assets/footer2.webp";
+import footer3 from "../../assets/footer3.webp";
 
 const Footer = () => {
   return (

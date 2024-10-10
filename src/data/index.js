@@ -2,37 +2,37 @@ export const servicesData = [
   {
     id: 1,
     title: "White Label Games",
-    img: "/s1.png",
+    img: "/s1.webp",
     text: "Customize and launch ready-made games under your brand.",
   },
   {
     id: 2,
     title: "Branded Game",
-    img: "/s2.png",
+    img: "/s2.webp",
     text: "Create games that align perfectly with your brand identity.",
   },
   {
     id: 3,
     title: "Game Reskin",
-    img: "/s3.png",
+    img: "/s3.webp",
     text: "Refresh existing games with new visuals, themes, and characters.",
   },
   {
     id: 4,
     title: "Custom Game",
-    img: "/s4.png",
+    img: "/s4.webp",
     text: "Develop unique games tailored to your specific requirements.",
   },
   {
     id: 5,
     title: "Game Localization",
-    img: "/s5.png",
+    img: "/s5.webp",
     text: "Adapt games for global audiences with culturally relevant content.",
   },
   {
     id: 6,
     title: "White Label Platform",
-    img: "/s6.png",
+    img: "/s6.webp",
     text: "Customize and launch a ready-made game platform under your brand.",
   },
 ];
@@ -41,42 +41,42 @@ export const gamesData = [
   {
     id: 1,
     name: "Galaxy Tour",
-    img: "/1.jpg",
+    img: "/1.webp",
   },
   {
     id: 2,
     name: "Andy's Factory",
-    img: "/2.jpg",
+    img: "/2.webp",
   },
   {
     id: 3,
     name: "8 Ball Pool",
-    img: "/3.jpg",
+    img: "/3.webp",
   },
   {
     id: 4,
     name: "Air Force Commando",
-    img: "/4.jpg",
+    img: "/4.webp",
   },
   {
     id: 5,
     name: "Hill Monkey",
-    img: "/5.jpg",
+    img: "/5.webp",
   },
   {
     id: 6,
     name: "Superhero Adventure",
-    img: "/6.jpg",
+    img: "/6.webp",
   },
   {
     id: 7,
     name: "Kingdom Defense",
-    img: "/7.jpg",
+    img: "/7.webp",
   },
   {
     id: 8,
     name: "Fruit Smash Master",
-    img: "/8.jpg",
+    img: "/8.webp",
   },
 ];
 

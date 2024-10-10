@@ -1,6 +1,6 @@
 import Card from "./Card";
 import { servicesData } from "../../data";
-import eduBg from "../../assets/edu-bg.png";
+import eduBg from "../../assets/edu-bg.webp";
 
 const Services = () => {
   return (
