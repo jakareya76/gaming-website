@@ -25,7 +25,7 @@ const About = () => {
             transition={{
               duration: 1,
               ease: "easeOut",
-              delay: 0.2, // Delay for the h2
+              delay: 0.2,
             }}
             className="md:text-7xl text-3xl font-bold font-Audiowide bg-gradient-to-r from-green-700 via-green-100 to-white bg-clip-text text-transparent"
           >
@@ -38,7 +38,7 @@ const About = () => {
             transition={{
               duration: 1,
               ease: "easeOut",
-              delay: 0.4, // Delay for the h4
+              delay: 0.4,
             }}
             className="md:text-4xl text-xl font-bold font-Audiowide bg-gradient-to-r from-white via-green-300 to-green-700 bg-clip-text text-transparent my-4 md:leading-normal"
           >
@@ -51,7 +51,7 @@ const About = () => {
             transition={{
               duration: 1,
               ease: "easeOut",
-              delay: 0.6, // Delay for the paragraph
+              delay: 0.6,
             }}
             className="text-gray-300 md:text-justify font-Roboto md:text-lg"
           >

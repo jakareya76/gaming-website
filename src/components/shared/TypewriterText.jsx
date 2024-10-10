@@ -6,6 +6,7 @@ const TypewriterText = () => {
       className="
         text-2xl    
         md:text-3xl 
+        md:my-3
         sm:text-xl  
         font-bold text-yellow-500 font-audiowide
         shadow-lg text-shadow-md
